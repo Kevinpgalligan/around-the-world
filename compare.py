@@ -19,9 +19,9 @@ def main():
     if args.t == "heatmap":
         plot_heatmap()
     elif args.t == "table":
-        print_table()
+        plot_table()
 
-def print_table():
+def plot_table():
     ps = [0.1, 0.25, 0.4, 0.5, 0.6, 0.835]
     l = len(ps)
     cells = [["x" for _ in range(l)]
